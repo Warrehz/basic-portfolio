@@ -26,6 +26,8 @@ h1 {
   color: #ffffff;
   width: 185px;
   padding: 15px;
+  position: relative;
+  display: inline-block;
   margin-left: 480px;
 }
 
@@ -36,6 +38,10 @@ h2 {
 h3 {
   color: #4aaaa5;
   text-align: center;
+}
+
+p {
+  text-align: justify;
 }
 
 ul {
@@ -56,9 +62,14 @@ footer {
 }
 
 .nav {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  margin-left: 455px;
+  display: inline-block;
+}
+
+.nav-link {
+  padding: 10px;
+  float: left;
 }
 
 .sidebar {
@@ -86,5 +97,14 @@ footer {
 }
 
 .social-media-button {
-  padding: 15px;
+  margin: 7px;
+  float: left;
+}
+
+#content-text {
+  display: inline;
+}
+
+#profile-pic {
+  float: left;
 }
