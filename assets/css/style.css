@@ -33,8 +33,12 @@ h1 {
   background-color: #4aaaa5;
   text-align: center;
   color: #ffffff;
-  padding: 15px;
+  padding: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width: 250px;
+  height: 88px;
   position: relative;
   font-family: 'Georgia', Times, Times New Roman, serif;
   display: inline-block;
@@ -81,16 +85,34 @@ footer {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.nav {
+nav {
   position: relative;
-  margin-left: 385px;
+  margin-left: 450px;
+  margin-bottom: -25px;
   display: inline-block;
+  height: 88px;
+  /*width: 500px;*/
 }
 
-.nav-link {
-  padding: 10px;
-  float: left;
+nav a {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  height: 88px;
+  /*padding: 10px;*/s
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.image-container {
+  margin-left: 21px;
 }
 
 .portfolio-image {
